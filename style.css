@@ -1,0 +1,42 @@
+.calculator {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgb(236, 161, 183);
+}
+
+.output {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+}
+
+.input {
+  display: grid;
+  border-bottom: 1px solid rgb(240, 168, 207);
+  border-left: 1px solid rgb(240, 168, 207);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.key {
+  border: 0.5px solid rgb(240, 168, 207);
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+.no-0 {
+  flex-basis: 200px
+}
+
+.sign {
+  background-color:rgb(228, 117, 150);
+}
+
+.key:hover {
+  background-color:rgb(157, 151, 240)
+
+}
+
+  
